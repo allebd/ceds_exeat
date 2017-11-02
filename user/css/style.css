@@ -1,0 +1,62 @@
+body{
+	height: 100vh;
+font-family: Helvetica;
+}
+header{
+	position: relative;
+	z-index: -1;
+}
+section{
+	position: absolute;
+	z-index: 1;
+}
+#welcomeText{
+	text-shadow: 0px 0px 12px rgba(255,255,255,0.7);
+	font-weight: 300;
+	margin-top: 30px;
+}
+#carCaption{
+	background-color: lightgray;
+	color: black;
+	font-size: 1.3em;
+	font-weight: 200;
+	border-radius: 5px;
+	padding: 3px 10px;
+}
+#login.btn.btn-lg{
+position: relative;
+top: 35px;
+}
+
+button#login.btn.btn-lg{
+margin-top: 40px;
+position:relative;
+z-index: 1;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+font-weight: 400;
+padding: 10px 40px;
+}
+
+#form{
+	max-width: 400px;	
+}
+input.form-control#one{
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+opacity:0.9;
+color: black;
+}
+input.form-control#two{
+border-radius: 0;
+opacity:0.9;
+color: black;
+}
+button.form-control#three{
+	border-top-left-radius: 0;
+border-top-right-radius: 0;
+}
+.form-control{
+	margin:2px;
+}
